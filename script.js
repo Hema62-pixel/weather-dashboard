@@ -1,9 +1,9 @@
-const API_KEY = "ed1283c5152ec2d6cc5d98a4d4653d11";
+const API_KEY = "98a895c36f944c0ff64b0b62c914bac3";
 
 async function getWeather() {
   try {
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=Coimbatore,IN&appid=${ed1283c5152ec2d6cc5d98a4d4653d11}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=Coimbatore,IN&appid=${API_KEY}&units=metric`
     );
 
     const data = await response.json();
